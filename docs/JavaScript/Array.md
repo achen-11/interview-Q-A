@@ -119,3 +119,4 @@ console.log(result) // [ 1, 2, 'abc', true, false, undefined, NaN ]
 - `arr.filter()` (返回值为true的元素)
 
 ### 类数组
+JavaScript 类数组指的是具有数组类似特性的对象。它们通常不是真正的数组，而是类似数组的对象，但拥有一些数组特有的属性和方法，比如 length 属性和 push() 方法。例如，arguments 对象就是一个典型的类数组。
