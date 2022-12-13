@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1. 解决外边距重叠 -->
+    <!--     <div class="test">
+        <div>div1和div2在同一个BFC</div>
+        <div class="div1"></div>
+        <div class="div2"></div>
+    </div>
+    <div class="test">
+        <div>div1和div2不在在同一个BFC</div>
+        <div class="wrapper">
+            <div class="div1"></div>
+        </div>
+        <div class="div2"></div>
+    </div>
+    <style>
+        .test {
+            overflow: auto;
+            border: 1px solid;
+        }
+        div {
+            margin: 10px 0;
+        }
+        .div1 {
+            background-color: red;
+            height: 20px;
+        }
+        .div2 {
+            background-color: #abcd;
+            height: 20px;
+        }
+        .wrapper {
+            overflow: auto;
+        }
+    </style> -->
+
+    <!-- 2.两栏布局 -->
+
+    <!-- <div class="left">
+    </div>
+    <div class="content">
+    </div>
+
+    <style>
+
+        .left {
+            background-color: red;
+            width: 200px;
+            height: 100px;
+            
+            float: left; 
+        }
+        .content {
+            background-color: #abcd;
+            height: 100px;
+            /* overflow触发BFC, BFC的区域不会与浮动的元素区域重叠 */
+            overflow: hidden;
+        }
+    </style> -->
+
+    <!-- 3.解决文字环绕 -->
+    <!-- <div class="left">
+        右边元素创建BFC
+    </div>
+    <div class="content">
+        testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+        testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+        testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+    </div>
+    <style>
+        .left {
+            background-color: red;
+            width: 200px;
+            height: 40px;
+            
+            float: left; 
+        }
+        .content {
+            background-color: #abcd;
+            height: 100px;
+            /* overflow触发BFC, BFC的区域不会与浮动的元素区域重叠 */
+            overflow: hidden;
+        }
+    </style> -->
+
+    <!-- 4.清除浮动 -->
+    <div class="father">
+        <div class="content"></div>
+    </div>
+    <div class="father" style="overflow: visible;">
+        <div class="content"></div>
+    </div>
+    <style>
+        .father {
+            background-color: #abcd;
+            border: 1px solid;
+            padding: 10px;
+            margin: 10px 0;
+            /* 创建BFC 利用BFC特性撑开高度 */
+            overflow: auto;
+        }
+        .content {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+    </style>
+</body>
+</html>
