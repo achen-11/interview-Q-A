@@ -4,6 +4,7 @@
     - [H5的新特性](/HTML/H5的新特性.md)
 - CSS
     - [谈谈对BFC的理解](/CSS/BFC.md)
+    - [居中的实现方式](/CSS/居中的实现方式.md)
 - JavaScript
     - [深浅拷贝](/JavaScript/深浅拷贝.md)
     - [Array的常用方法](/JavaScript/Array.md)
