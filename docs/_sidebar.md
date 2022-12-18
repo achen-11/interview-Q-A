@@ -11,7 +11,8 @@
     - [深浅拷贝](/JavaScript/深浅拷贝.md)
     - [Array的常用方法](/JavaScript/Array.md)
     - [typeof与instanceof区别](/JavaScript/typeof与instanceof区别.md)
-    - [内存泄漏和垃圾回收机制(搬运)](JavaScript/内存泄漏和垃圾回收机制.md)
+    - [内存泄漏和垃圾回收机制(搬运)](/JavaScript/内存泄漏和垃圾回收机制.md)
+    - [this的指向规则(call, apply, bind)](/JavaScript/this的指向规则.md)
 - ES6
     - [var, let , const的区别](/ES6/var-let-const的区别.md)
 - Vue
