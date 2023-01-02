@@ -15,6 +15,7 @@
     - [内存泄漏和垃圾回收机制(搬运)](/JavaScript/内存泄漏和垃圾回收机制.md)
     - [this的指向规则(call, apply, bind)](/JavaScript/this的指向规则.md)
     - [函数的执行上下文和执行上下文栈](JavaScript/执行上下文和执行上下文栈.md)
+    - [原型和原型链的理解](JavaScript/原型和原型链的理解.md)
 - ES6
     - [var, let , const的区别](/ES6/var-let-const的区别.md)
 - Vue
