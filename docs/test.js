@@ -35,12 +35,19 @@ let obj = {
 }
 console.log(obj);
 
-const Person = function() {}
+function Person() {}
 Person.prototype.name = 'achen'
 Person.prototype.age = 23
 Person.prototype.sayName = function() {
     console.log(this.name);
 }
 
-const person = new Person()
-console.log(person)
+let person1 = new Person()
+let person2 = new Person()
+person1.name = "Achen"
+console.log('person', person1)
+console.log("Person", Person);
+console.log(person1.name) // 寻找自身属性, 包含name, 所以返回"Achen"
+console.log(person2.name) // 寻找自身属性, 没有找到, 通过[[prototype]]找到原型对象, 包含name, 返回"achen"
+person1.sayName() // "Achen"
+person2.sayName() // "achen"
