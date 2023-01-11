@@ -9,6 +9,7 @@
     - [标准盒模型](/CSS/标准盒模型和怪异盒模型.md)
     - [回流和重绘](/CSS/回流和重绘.md)
     - [CSS3新增特性](/CSS/CSS3新增特性.md)
+    - [display:none和visibility:hidden、opacity: 0的区别](/CSS/隐藏方式的区别.md)
 - JavaScript
     - [深浅拷贝](/JavaScript/深浅拷贝.md)
     - [Array的常用方法](/JavaScript/Array.md)
