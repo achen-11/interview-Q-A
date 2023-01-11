@@ -18,7 +18,8 @@
     - [this的指向规则(call, apply, bind)](/JavaScript/this的指向规则.md)
     - [函数的执行上下文和执行上下文栈](JavaScript/执行上下文和执行上下文栈.md)
     - [原型和原型链的理解](JavaScript/原型和原型链的理解.md)
-    - [闭包](Javascript/闭包.md)
+    - [闭包](JavaScript/闭包.md)
+    - [事件循环(Event Loop)](JavaScript/事件循环.md)
 - ES6
     - [var, let , const的区别](/ES6/var-let-const的区别.md)
 - Vue

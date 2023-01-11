@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log('global')
+
+        for (var i = 0;i<3; i++) {
+        setTimeout(function() {
+            console.log(i)
+        },i*1000)
+        console.log(i)
+        }
+
+        new Promise(function (resolve) {
+        console.log('promise1')
+        resolve()
+        }).then(function () {
+        console.log('then1')
+        })
+
+        setTimeout(function () {
+        console.log('timeout2')
+        new Promise(function (resolve) {
+            console.log('timeout2_promise')
+            resolve()
+        }).then(function () {
+            console.log('timeout2_then')
+        })
+        }, 0)
+    </script>
+</body>
+</html>
