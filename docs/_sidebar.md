@@ -10,6 +10,7 @@
     - [回流和重绘](/CSS/回流和重绘.md)
     - [CSS3新增特性](/CSS/CSS3新增特性.md)
     - [display:none和visibility:hidden、opacity: 0的区别](/CSS/隐藏方式的区别.md)
+    - [浏览器实现12px以下的字体大小](./CSS/浏览器实现12px以下的字体大小.md)
 - JavaScript
     - [深浅拷贝](/JavaScript/深浅拷贝.md)
     - [Array的常用方法](/JavaScript/Array.md)
