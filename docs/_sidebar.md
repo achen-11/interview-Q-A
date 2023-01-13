@@ -21,6 +21,7 @@
     - [原型和原型链的理解](JavaScript/原型和原型链的理解.md)
     - [闭包](JavaScript/闭包.md)
     - [事件循环(Event Loop)](JavaScript/事件循环.md)
+    - [js的异步解决方案](JavaScript/异步解决方案.md)
 - ES6
     - [var, let , const的区别](/ES6/var-let-const的区别.md)
 - Vue
